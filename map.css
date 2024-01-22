@@ -1,0 +1,35 @@
+#container {
+    text-align: center;
+}
+
+#map, #legend {
+    margin: 10px auto;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    padding: 6px;
+    font-size: 12px;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#legend rect {
+    stroke: #fff;
+}
+
+#legend text {
+    font-size: 12px;
+    fill: #333;
+}
